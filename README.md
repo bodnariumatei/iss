@@ -22,8 +22,12 @@ poate selecta unul sau mai multe locuri si poate declansa un buton pentru rezerv
 ### FAZA I (Colectarea si analiza cerintelor):
 - Laboratorul 1: stabilirea temelor individuale
 - Laboratorul 2:
+
    I. modelul functional (diagrama UML a cazurilor de utilizare + descrierea textuala/tabelara a cazurilor de utilizare, cu scenariul normal si scenariile alternative/de exceptie posibile)
+   
    II. planificarea cazurilor de utilizare pe 3 iteratii
 - Laboratorul 3:
-   I. modelul conceptual (reprezentat folosind o diagrama UML de clase) !modelul conceptual reda exclusiv entitatile din domeniul problemei si relatiile aferente! 
+
+   I. modelul conceptual (reprezentat folosind o diagrama UML de clase) !modelul conceptual reda exclusiv entitatile din domeniul problemei si relatiile aferente!
+   
    II. prototipul interfetei grafice cu utilizatorul 
