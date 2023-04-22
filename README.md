@@ -24,6 +24,7 @@ poate selecta unul sau mai multe locuri si poate declansa un buton pentru rezerv
 - Laboratorul 2:
 
    I. modelul functional (diagrama UML a cazurilor de utilizare + descrierea textuala/tabelara a cazurilor de utilizare, cu scenariul normal si scenariile alternative/de exceptie posibile)
+   -> descrierea tabelară a cazurilor de utilizare: https://docs.google.com/document/d/1cCbxkcDhQeM4RS8ULldIVMj79ZH2I66RVHTnYmmpPhQ/edit?usp=sharing
    
    II. planificarea cazurilor de utilizare pe 3 iteratii
 - Laboratorul 3:
