@@ -32,3 +32,11 @@ poate selecta unul sau mai multe locuri si poate declansa un buton pentru rezerv
    I. modelul conceptual (reprezentat folosind o diagrama UML de clase) !modelul conceptual reda exclusiv entitatile din domeniul problemei si relatiile aferente!
    
    II. prototipul interfetei grafice cu utilizatorul 
+   
+### FAZA II (Proiectare si implementare iteratia 1):
+- Laboratorul 4: 
+
+   I. reprezentarea scenariilor aferente cazurilor de utilizare din iteratia 1, prin diagrame de
+interactiune (diagrame de secventa si de comunicare/colaborare)
+   II. rafinarea diagramei de clase initiale, cu includerea entitatilor din domeniul solutiei
+aferente iteratiei 1
