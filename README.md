@@ -38,5 +38,6 @@ poate selecta unul sau mai multe locuri si poate declansa un buton pentru rezerv
 
    I. reprezentarea scenariilor aferente cazurilor de utilizare din iteratia 1, prin diagrame de
 interactiune (diagrame de secventa si de comunicare/colaborare)
+
    II. rafinarea diagramei de clase initiale, cu includerea entitatilor din domeniul solutiei
 aferente iteratiei 1
