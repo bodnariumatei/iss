@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.iss.theatre.gui.AdminController">
+  <tabs>
+    <Tab text="Shows">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="showsListView" layoutX="14.0" layoutY="14.0" prefHeight="342.0" prefWidth="308.0" />
+                  <GridPane layoutX="338.0" layoutY="14.0" prefHeight="72.0" prefWidth="238.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="142.199951171875" minWidth="10.0" prefWidth="52.8" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="197.4000244140625" minWidth="10.0" prefWidth="186.39999999999998" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Nume" />
+                        <Label text="Durata" GridPane.rowIndex="1" />
+                        <TextField fx:id="nameTextField" GridPane.columnIndex="1" />
+                        <TextField fx:id="durationTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                     </children>
+                  </GridPane>
+                  <Button layoutX="525.0" layoutY="92.0" mnemonicParsing="false" onAction="#addShow" text="Adaugă" />
+                  <Button layoutX="463.0" layoutY="92.0" mnemonicParsing="false" onAction="#removeShow" text="Șterge" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Representations">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ListView layoutX="14.0" layoutY="14.0" prefHeight="346.0" prefWidth="329.0" />
+                  <GridPane layoutX="353.0" layoutY="14.0" prefHeight="91.0" prefWidth="234.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="112.199951171875" minWidth="10.0" prefWidth="73.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="169.0" minWidth="10.0" prefWidth="161.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Label" />
+                        <Label text="Label" GridPane.rowIndex="1" />
+                        <Label text="Label" GridPane.rowIndex="2" />
+                        <ComboBox prefHeight="26.0" prefWidth="165.0" GridPane.columnIndex="1" />
+                        <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                     </children>
+                  </GridPane>
+                  <Button layoutX="534.0" layoutY="113.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="470.0" layoutY="113.0" mnemonicParsing="false" text="Button" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
